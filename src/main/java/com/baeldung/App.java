@@ -1,6 +1,5 @@
 package com.baeldung;
 
-import com.baeldung.model.Computer;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
