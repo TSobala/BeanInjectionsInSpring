@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 http://www.springframework.org/schema/beans/spring-beans-2.5.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id="computer" class="com.baeldung.model.Computer">
+    <bean id="computer" class="com.baeldung.Computer">
         <constructor-arg>
             <ref bean="processor"/>
         </constructor-arg>
